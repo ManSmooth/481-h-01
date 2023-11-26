@@ -18,6 +18,7 @@
 6. Find % by dividing previous column by amount of rows
 7. Same as `5.` but also with Python
 8. Find relative % of `7.` and `5.` meaning, percentage of rows that matches database that also mentions python to ones with only database mentioned.
+
 This one is for statistical analysis purposes.
 
 # 25-26 (`h-02.py`)
@@ -30,6 +31,7 @@ This one is for statistical analysis purposes.
             1. If all token matches the number is 1
             2. Otherwise it is 0
     2. Set column names according to the terms list
+
 These can be used to easily query based on terms.
 
 # 35-36 (`h-03.py`)
@@ -39,4 +41,5 @@ These can be used to easily query based on terms.
 4. For both list of tokens choose only tokens that are longer than 2 characters
 5. Remove stop words from both list of tokens
 6. Using porter stemming algorithm, we stem each token ("developing", "developer" -> "develop"), and remove duplicates
+
 These can be used to dynamically construct keywords or indexes or terms to process documents without knowing what they're about beforehand.
